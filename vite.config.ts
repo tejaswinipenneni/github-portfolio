@@ -14,7 +14,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // For user site repo: base: '/'
-  // For project site repo (e.g., portfolio): base: '/portfolio/'
-  base: '/'
+  base: '/github-portfolio/',   // 👈 matches your URL path
 })
